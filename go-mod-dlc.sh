@@ -43,7 +43,6 @@ print_license() {
             is_ok=1
             break
         fi
-        break
     done
     if [ $is_ok -eq 0 ] && [ $debug -ne 0 ]; then
         echo "No license file found : ${1}" >&2
