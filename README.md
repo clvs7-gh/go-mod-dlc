@@ -5,6 +5,9 @@ But, collecting LICENSE/COPYING file manually is a little hard work.
 
 This script collects LICENSE/COPYING file which attached with used library from your $GOPATH/pkg/mod directory.
 
+### Usage
+`./go-mod-dlc.sh --help`
+
 ### Limitation
 Library/Project which not use go.mod is currently not supported.
 

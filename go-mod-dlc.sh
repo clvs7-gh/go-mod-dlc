@@ -1,5 +1,5 @@
 #!/bin/bash
-## go.mod dependency library license collector
+## go.mod dependency license collector
 ## ==============================
 ## Author : clvs7
 ## License: CC0 (Public Domain)
