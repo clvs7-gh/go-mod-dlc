@@ -36,7 +36,7 @@ print_license() {
         license_path=${MOD_PATH}/${1}/${pat}
         if [ -e ${license_path} ]; then
             repeat_str "=" 60
-            echo "Notice for file : ${1%@*}"
+            echo "Notice for file : `echo ${1%@*} | tr -d '!'`"
             repeat_str "=" 60
             cat ${license_path}
             echo ""
