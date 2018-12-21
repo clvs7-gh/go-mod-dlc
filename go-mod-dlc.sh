@@ -69,7 +69,7 @@ dig_library() {
             repeat_str "=" 60
             echo "Dependencies of ${lib} :"
             repeat_str "=" 60
-            cat "${lib_path}/${NOTICE_FILE_PATTERN}"
+            cat ${lib_path}/${NOTICE_FILE_PATTERN}
             echo ""
         elif [ -e "${lib_path}/go.mod" ] && [ ${scan_deep} -ne 0 ]; then
             dig_library "`parse_go_mod "${lib_path}/go.mod"`"
